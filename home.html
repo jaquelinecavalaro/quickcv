@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+        <title>Jaqueline</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/stylehome.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="banner">
+            <img src="assets/img/banner.jpg" class="cover">
+        </div>
+        <div class="navLink">
+            <ul>
+                <li><a href="cv/cv.html"> About</a></li>
+                <li><a href="cv/skills-certificates.html"> Skills & Certificate</a></li>
+                <li><a href="cv/portifolio.html"> Portifolio</a></li>
+                <li><a href="/cv/contact.html"> Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="sec">
+        <header>
+            <div class="toggle"></div>
+                <a href="https://github.com/jaquelinecavalaro" target="_blank" class="btn">Let's Code <i class="fa fa-rocket" aria-hidden="true"></i>
+                </a>
+        </header>
+
+        <div class="imgBx">
+            <img src="assets/img/jaque.jpg" class="cover">
+        </div>
+        <div class="content">
+            <h2>Hi, I am<br><span>Jaqueline Cavalaro</span> </h2>
+            <p>Hello, welcome to my profile.<br>Hi, welcome to my profile.
+                Here you will find my curriculum and my main means of contact.<br>
+                Let's work together?</p>
+            <a href="cv/cv.html" class="btn">View My CV</a>
+        </div>
+
+        <footer>
+            <ul class="sci">
+                
+                <li><a href="https://github.com/jaquelinecavalaro" target="_blank"><img src="assets/icon/gitHub.png" width="50" 
+                    height="auto"></a></li>
+                <li><a href="https://www.linkedin.com/in/jaqueline-cavalaro/" target="_blank"><img src="assets/icon/linkedin.png" width="50" 
+                    height="auto"></a></li>
+                <li><a href="https://www.facebook.com/Jakiisweet/" target="_blank"><img src="assets/icon/facebook.png" width="50" 
+                    height="auto"></a></li>
+                <li><a href="https://www.instagram.com/jakiisweet/" target="_blank"><img src="assets/icon/instagram.png" width="50" 
+                    height="auto"></a></li>
+
+                
+            </ul>
+            <p class="copyrightText">© Copyright Jaqueline Cavalaro</p>
+        </footer>
+    </section>
+
+    <script>
+        let menuToggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation')
+        let sec = document.querySelector('.sec');
+        menuToggle.onclick = function(){
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+            sec.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
